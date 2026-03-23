@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/vollmed_api
+    username: root
+    password: ${DB_PASSWORD}
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  error:
+    include-stacktrace: never
+api:
+  security:
+    secret: ${JWT_SECRET:123456}
+    token:
+      expiracion-horas: 2
+      zona-horaria: "-03:00"
