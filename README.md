@@ -8,7 +8,7 @@
 
 REST API for managing patients, doctors, and medical appointments built with Spring Boot.
 
-> **Note:** The codebase and API fields use Spanish naming conventions, as this project was developed following a Spanish-language course.
+> **Note:** The codebase and API fields use Spanish naming conventions.
 
 ---
 
