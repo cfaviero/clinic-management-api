@@ -2,7 +2,7 @@ spring:
   profiles:
     active: dev
   datasource:
-    url: jdbc:mysql://localhost:3306/vollmed_api
+    url: jdbc:mysql://localhost:3307/vollmed_api
     username: root
     password: ${DB_PASSWORD}
   jpa:
